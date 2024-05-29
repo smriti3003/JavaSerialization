@@ -7,6 +7,8 @@ class Person implements Serializable{
   this.name = name;    
  }    
 }    
+
+
 class Student extends Person{    
  String course;    
  int fee;    
@@ -15,7 +17,8 @@ class Student extends Person{
   this.course=course;    
   this.fee=fee;    
  }    
-}    
+}  
+
 public class SerializeISA  
 {    
  public static void main(String args[])  
